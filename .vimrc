@@ -1,6 +1,3 @@
-call pathogen#infect()
-call pathogen#helptags()
-
 set number
 set nowrap
 
@@ -21,3 +18,9 @@ set backspace=indent,eol,start
 
 set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
+
+syntax on
+filetype plugin indent on
+
+call pathogen#infect()
+call pathogen#helptags()
