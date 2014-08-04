@@ -19,6 +19,17 @@ set backspace=indent,eol,start
 set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
 
+" set show matching parenthesis
+set showmatch
+" highlight search terms
+set hlsearch
+" show search matches as you type
+set incsearch
+
+" disable swap/backup files
+set nobackup
+set noswapfile
+
 syntax on
 filetype plugin indent on
 
