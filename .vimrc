@@ -1,4 +1,4 @@
-set number
+set nonumber
 set nowrap
 
 set autoindent
