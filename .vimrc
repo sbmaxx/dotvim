@@ -35,3 +35,5 @@ filetype plugin indent on
 
 call pathogen#infect()
 call pathogen#helptags()
+
+colorscheme Tomorrow
