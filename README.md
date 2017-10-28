@@ -1,5 +1,14 @@
-# How to add new plugin
+# Installation
+```bash
+cd ~/
+git clone https://github.com/sbmaxx/dotvim.git
+ln -s ~/dotvim .vim
+ln -s ~/dotvim/.vimrc .vimrc
+cd ~/dotvim
+make
+```
 
+# How to add new plugin
 ```bash
 git submodule init
 git submodule add git://github.com/tpope/vim-fugitive.git bundle/vim-fugitive
