@@ -12,6 +12,7 @@ set softtabstop=4
 set tabstop=4
 " always uses spaces instead of tab characters
 set expandtab
+set background=light
 
 set undolevels=1000
 set backspace=indent,eol,start
@@ -36,4 +37,5 @@ filetype plugin indent on
 call pathogen#infect()
 call pathogen#helptags()
 
-colorscheme PaperColor
+"let g:solarized_termcolors=256
+colorscheme solarized
